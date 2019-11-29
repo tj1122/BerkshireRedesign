@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <title>Berkshire Hathaway</title>
+</head>
+
+<body>
+  <section id="off-canvas-container" data-navigation-position="right" data-navigation-slide="under">
+    <div>
+      <section>
+        <i class="far fa-times-circle" id="close-btn"></i>
+      </section>
+      <img src="img/header/berkshire_logo.png" alt="BH Logo" data-rjs="3">
+      <div id="nav-container">
+        <nav data-nav="main-navigation">
+          <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#meeting">Meeting</a></li>
+            <li><a href="index.html#companies">Companies</a></li>
+            <li><a href="index.html#news">News</a></li>
+            <li><a href="index.html#contact-info">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="social-icons">
+        <nav>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <main>
+
+    <div class="js-off-canvas-overlay" id="overlay"></div>
+    <header>
+      <a href="index.html"><img src="img/header/berkshire_logo.png" alt="BH Logo" data-rjs="3"></a>
+
+      <nav id="desktop-nav">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#meeting">Meeting</a></li>
+          <li><a href="index.html#companies">Companies</a></li>
+          <li><a href="index.html#news">News</a></li>
+          <li><a href="index.html#contact-info">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- burger icon -->
+      <section id="burger-icon">
+        <i class="fas fa-bars"></i>
+      </section>
+    </header>
+
+    <section id="news-header" class="section-content">
+      <h1>2018 News Releases</h1>
+
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Year<i class="fas fa-caret-down"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">2018</a>
+          <a href="#">2017</a>
+          <a href="#">2016</a>
+          <a href="#">2015</a>
+          <a href="#">2014</a>
+          <a href="#">2013</a>
+          <a href="#">2012</a>
+          <a href="#">2011</a>
+          <a href="#">2010</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="news-articles">
+      <ul>
+        <li>
+          <h2>August 4, 2018</h2>
+          <p>Second Quarter Earnings 2018</p>
+        </li>
+        <li>
+          <h2>August 2, 2018</h2>
+          <p>Information Regarding Second Quarter Earnings Release</p>
+        </li>
+        <li>
+          <h2>July 17, 2018</h2>
+          <p>Berkshire Hathaway Amends Share Repurchase Program</p>
+        </li>
+        <li>
+          <h2>July 16, 2018</h2>
+          <p>News Release</p>
+        </li>
+        <li>
+          <h2>June 20, 2018</h2>
+          <p>Berkshire Hathaway and JPMorgan Chase appoint Dr. Atul Gawande as Chief Executive</p>
+        </li>
+        <li>
+          <h2>May 5, 2018</h2>
+          <p>First Quarter Earnings 2018</p>
+        </li>
+        <li>
+          <h2>May 1, 2018</h2>
+          <p>News Release</p>
+        </li>
+        <li>
+          <h2>February 24, 2018</h2>
+          <p>Fourth Quarter Earnings 2017</p>
+        </li>
+        <li>
+          <h2>February 22, 2018</h2>
+          <p>Annual Report Release Information</p>
+        </li>
+        <li>
+          <h2>February 14, 2018</h2>
+          <p>Greg Abel and Ajit Jain Elected to Board of Directors</p>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="section-content">
+      <img src="img/footer/berkshire_logo.png" alt="BH Logo 2" data-rjs="3">
+      <h5>Copyright © 1978-2018 Berkshire Hathaway Inc.</h5>
+
+      <nav>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </main>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- retina -->
+  <script type="text/javascript" src="js/retina.min.js"></script>
+  <!-- AOS -->
+  <script src="plugins/aos/aos.js"></script>
+  <script src="js/aos/animate.js"></script>
+  <!-- Greensock -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/ScrollToPlugin.min.js"></script>
+
+  <script src="js/scripts.js"></script>
+  <script src="js/classie.js"></script>
+  <script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+  <script>
+  $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll > 0) {
+          $("header").addClass("active");
+      }
+      else {
+          $("header").removeClass("active");
+      }
+  });
+  </script>
+
+</body>
+
+</html>
